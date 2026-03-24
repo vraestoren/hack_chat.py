@@ -1,5 +1,9 @@
-# hack_chat.py
-Web-API for [hack.chat](https://hack.chat) minimal, distraction-free chat application
+<h1>
+  <img src="https://hack.chat/favicon.ico" width="28" style="vertical-align:middle;" />
+  hack_chat.py
+</h1>
+
+> Web-API for [hack.chat](https://hack.chat) minimal, distraction-free chat application
 ![](https://raw.githubusercontent.com/AndrewBelt/hack.chat/master/screenshot.png)
 
 ## Example
