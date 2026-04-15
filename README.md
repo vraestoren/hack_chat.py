@@ -11,13 +11,13 @@ pip install websocket-client
 ## Quick Start
 
 ```python
-import hack_chat
+from hack_chat import HackChat
 
 def greet_user(chat, message, user):
     if "hello" in message.lower():
         chat.send_message(f"Wassup {user}!")
 
-bot = hack_chat.HackChat(nickname="WelcomeBot", channel="programming")
+bot = HackChat(nickname="WelcomeBot", channel="programming")
 bot.on_message += [greet_user]
 bot.listen()
 ```
@@ -28,10 +28,10 @@ bot.listen()
 
 ```python
 # Anonymous
-bot = hack_chat.HackChat(nickname="MyBot", channel="programming")
+bot = HackChat(nickname="MyBot", channel="programming")
 
 # With password
-bot = hack_chat.HackChat(nickname="MyBot", password="secret", channel="programming")
+bot = HackChat(nickname="MyBot", password="secret", channel="programming")
 ```
 
 ### Events
